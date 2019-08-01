@@ -69,13 +69,14 @@ body {
 }
 
 ul.menu li {
-  font-weight: 400;
+  font-weight: 300;
   list-style: none;
   text-align: right;
 }
 
 ul.menu li a{
   font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-size: 24px;
   color: #fff;
   text-decoration: none;
@@ -365,14 +366,17 @@ ul.menu li a{
 
   ul.menu li a{
     font-family: "Open Sans", sans-serif;
+    font-weight: 300;
     font-size: 24px;
     display: block;
     padding: 20px;
   }
+
+
   .hide-menu-btn{
     position: absolute;
     top: 40px;
-    right: 135px;
+    right: 125px;
   }
   #chk:checked ~ .menu{
     right: 0;
@@ -484,7 +488,19 @@ ul.menu li a{
   }
 }
 
+.thumb-box{
+  width: 489px;
+  height: 275px;
+  overflow: hidden;
+}
 
-
+#fground{
+  background-image: url('./images/fground.jpg');
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
