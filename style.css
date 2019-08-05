@@ -42,10 +42,34 @@ html {
   font-family: "montserrat",sans-serif;
 }
 
+
+
 body {
+  background: #0c0c0c;
+}
+
+/*
+body.parallax {
   background:#000000 url(images/vk-bg.png) no-repeat !important;
   background-size: 100%;
 }
+*/
+
+#parallax-container {
+   display: block;
+   height: 1000px;
+   margin-bottom: 300px;
+}
+
+#parallax-container .parallax-image {
+   position: fixed;
+   top: 0;
+   background-position: center !important;
+   transform: translateY(0px);
+   height: 1000px;
+   width: 100%;
+}
+
 
 .header{
   height: 100px;
@@ -53,6 +77,7 @@ body {
   color: #fff;
   width: 1252px;
   margin:0 auto;
+  position: relative;
 }
 .logo{
     margin: 25px 0;
@@ -154,7 +179,7 @@ ul.menu li a{
   width: 325px;
   padding-top: 24px;
 }
-.container .hero-text h1 {
+.container .hero-text h1{
   color: #ffffff;
   font-family: 'NorwesterRegular';
   font-size: 60px;
@@ -189,6 +214,24 @@ ul.menu li a{
   margin: 0 0 30px 0;
   font-size: 18px;
   line-height: 24px;
+}
+
+.bushes {
+  background: url(./images/bushes.png) no-repeat;
+  width: 100%;
+  display: table;
+
+}
+
+.bushes::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .container .featured {
@@ -284,6 +327,7 @@ ul.menu li a{
 
 #our-work {
   margin-top:200px;
+  background: #0c0c0c;
 }
 
 #our-work .title {
@@ -488,19 +532,67 @@ ul.menu li a{
   }
 }
 
-.thumb-box{
-  width: 489px;
-  height: 275px;
-  overflow: hidden;
+
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-#fground{
-  background-image: url('./images/fground.jpg');
-  min-height: 250px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.overlay::after{
+  display: none;
 }
 
+.thumb-box:hover .thumb-img {
+  opacity: 0.3;
+}
 
+.thumb-box:hover .overlay {
+  opacity: 1;
+}
+
+.plus {
+  filter:invert(100%);
+}
+
+.modal-body, .modal-content, .modal-footer{
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.close, .fas {
+  color: #ff0000;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.modal-body h1{
+  font-family: 'NorwesterRegular';
+  font-size: 75px;
+}
+
+.separator {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #ff0000;
+  margin: 10px auto;
+}
+
+#img-handler{
+  max-width: 1138px;
+}
+
+.thumb-box a:after{
+  content: none !important;
+}
+
+#myModal1{
+  background-color: transparent;
+}
