@@ -45,7 +45,7 @@ html {
 
 
 body {
-  background: #0c0c0c;
+  background:#0C0C0C;
 }
 
 /*
@@ -561,8 +561,8 @@ ul.menu li a{
   filter:invert(100%);
 }
 
-.modal-body, .modal-content, .modal-footer{
-  background-color: rgba(0,0,0,0.8);
+.modal-body, .modal-content{
+  background-color: rgba(0,0,0,0.85);
   color: white;
 }
 
@@ -574,7 +574,7 @@ ul.menu li a{
 
 .modal-body h1{
   font-family: 'NorwesterRegular';
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .separator {
@@ -589,10 +589,27 @@ ul.menu li a{
   max-width: 1138px;
 }
 
-.thumb-box a:after{
+a:after{
   content: none !important;
+}
+
+a.scroll::after{
+  content: '\f107' !important;
+  font-weight: bold;
+  font-family: 'FontAwesomeBold';
 }
 
 #myModal1{
   background-color: transparent;
+}
+
+#about-bground{
+  background-image: url(./images/about-img.png);
+  background-size: cover;
+  height: 48vh;
+  width: 100%;
+}
+
+#about-contents{
+  background-color: #000;
 }
