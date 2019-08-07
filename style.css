@@ -603,11 +603,12 @@ a.scroll::after{
   background-color: transparent;
 }
 
-#about-bground{
-  background-image: url(./images/about-img.png);
-  background-size: cover;
-  height: 48vh;
-  width: 100%;
+#about{
+  position: fixed;
+}
+
+#about-img{
+  z-index: 10000;
 }
 
 #about-contents{

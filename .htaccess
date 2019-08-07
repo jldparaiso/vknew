@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Password Protected Area"
-AuthUserFile /home3/emersonb/staging.villainskitchen.com/.htpasswd
-Require valid-user
