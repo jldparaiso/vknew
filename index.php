@@ -18,13 +18,13 @@
         </label>
 
         <ul class="menu">
-          <li><a href="#our-work">Work</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
           <li id="closeMenu"><label for="chk" class="hide-menu-btn" style="font-family: 'Open Sans', sans-serif; font-weight: 300;">
-            Close <i class="fas fa-times"></i>
+            Close <i class="fas fa-times text-white"></i>
           </label></li>
+          <li><a href="index.php#our-work">Work</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="about.php#services">Services</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
       <div id="home" class="container">
@@ -43,7 +43,7 @@
           <div class="featured"><img src="./images/featured-3.jpg" /></div>
         </div>
         <div class="row" style="">
-          <div class="col-md-12"><a class="scroll" href="#our-work" style="font-family: 'AGaramondPro-BoldItalic';">view work</a></div>
+          <div class="col-md-12"><a class="button" href="#our-work" style="font-family: 'AGaramondPro-BoldItalic';"><img src="./images/btn-white.png"></a></div>
         </div>
       </div>
     </div>
@@ -54,13 +54,13 @@
         <div class="col-md-4 mx-auto title pt-4">
           <h2 style="font-size: 85px;">Our Work</h2>
           <div class="separator"></div>
-          <p>Villains Kitchen is led by strategy, influenced by design, and inspired by technology.</p>
+          <p id="intro">Villains Kitchen is led by strategy, influenced by design, and inspired by technology.</p>
         </div>
         <div class="col-md-10 mx-auto works pb-4">
           <div class="row">
 
             <div class="thumb-box col-md-6">
-              <a href="land-rover.html" data-toggle="modal" data-target="#myModal1">
+              <a data-toggle="modal" data-target="#myModal1">
               <img class="thumb-img" src="./images/thumb1.jpg" data-toggle="modal" data-target="#myModal1"/>
               <div class="overlay">
                 <div class="plus"><img src="./images/pluscontrol.png"></div>

@@ -151,6 +151,12 @@ ul.menu li a{
   margin-right: 0;
   width: 100%;
 }
+
+#intro{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
 /*
 .container .row {
   position: relative;
@@ -266,9 +272,8 @@ ul.menu li a{
   left: -30px;
 }
 
-.container a.scroll:link, .container a.scroll:visited {
+.container a.button:link, .container a.button:visited {
   text-align: center;
-  background: #ffffff;
   display: table;
   margin:80px auto 20px;
   padding: 24px 10px 14px;
@@ -276,7 +281,7 @@ ul.menu li a{
   font-style: italic;
   color: #000000;
   font-weight: 700;
-  border-radius: 120px;
+  /*border-radius: 120px;*/
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
@@ -291,9 +296,8 @@ ul.menu li a{
   -webkit-animation-iteration-count: 1;
 }
 
-.container a.scroll:hover, .container a.scroll:active {
-  background: #000000;
-  color: #ffffff;
+.container a.button:hover, .container a.button:active {
+  filter: invert(100%);
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
@@ -389,6 +393,7 @@ ul.menu li a{
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
+
   ul.menu{
     position: fixed;
     width: 40%;
@@ -417,11 +422,14 @@ ul.menu li a{
   }
 
 
+
+
   .hide-menu-btn{
     position: absolute;
     top: 40px;
-    right: 125px;
+    right: 23%;
   }
+
   #chk:checked ~ .menu{
     right: 0;
   }
@@ -613,4 +621,117 @@ a.scroll::after{
 
 #about-contents{
   background-color: #000;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+
+  #parallax-container {
+    display: block;
+    height: auto;
+    margin-bottom: 50vh;
+  }
+
+  
+
+  .container .featured-label{
+    line-height: 30px;
+  }
+
+  .fa-3x {
+    font-size: 1.5em;
+  }
+
+  .modal-body h1 {
+    font-family: 'NorwesterRegular';
+    font-size: 40px;
+  }
+
+  #modal-span{
+    font-size: 45px !important;
+  }
+
+  #modal-control-left{
+    padding-left: 0 !important;
+  }
+
+  #modal-control-right{
+    padding-right: 0 !important;
+  }
+
+  #modal-client{
+    padding-left: 1rem!important;
+    margin-left: 1rem!important;
+  }
+
+  #modal-head-article h3{
+    font-size: 32px !important;
+    margin-top: 32px;
+  }
+
+
+  .container a.button:link, .container a.button:visited {
+  text-align: center;
+  display: table;
+  position: fixed;
+  bottom: .5px;
+  left: 128px;
+  z-index: 9;
+  /*margin:80px auto 20px;
+  padding: 24px 10px 14px;*/
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #000000;
+  font-weight: 700;
+  /*border-radius: 120px;*/
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: 1;
+}
+
+  ul.menu li{
+    text-align: center;
+    padding-right: 0;
+  }
+
+
+   .hide-menu-btn{
+    position: absolute;
+    top: 28px;
+    right: 28px;
+  }
+
+ 
+
+  .sub-cont{
+    font-size: 25px !important;
+    text-align: left !important;
+  }
+
+  #about, #services{
+  position: static;
+  padding: 0px !important;
+  margin: 0 auto;
+  }
+
+  #abt-img, #services,.footer{
+    position: static;
+    top: 0 !important;
+    overflow: hidden;
+  }
+
+  .services-head{
+    padding: 20px !important;
+  }
 }
