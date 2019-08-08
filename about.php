@@ -28,13 +28,13 @@
         <div class="col-lg-3 col-md-3 col-sm-6 mt-5">
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold; color: #000;">WHO WE ARE</h1>
         </div>
-        <div class="col-3"></div>
-        <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
-          <p class="sub-cont lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; font-weight:400; color: black;">VillainsKitchen is an independently owned creative agency founded in 2015 and currently located in Los Angeles. </p>
+        <div class="col-2"></div>
+        <div class="col-lg-7 col-md-6 col-sm-12 mt-5">
+          <p class="sub-cont lead" style="font-family: 'Open Sans', sans-serif; font-size: 45px; font-weight:300; color: #333333; text-align: left; line-height: 54px;">VillainsKitchen is an independently owned creative agency founded in 2015 and currently located in Los Angeles. </p>
 
-          <p style="font-family: 'Open Sans', sans-serif; font-size: 14px; color: black;">A multi-disciplined set of Creatives and Technologists who create ideas for our clients. Our work often blends mixtures of ideas and craft wrapped around extremely engaging stories that deliver results. We are the stewards of a new way of thinking. A diverse team who share an obsession with consumer understanding, the power of ideas and its craft.</p>
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 18px; color: #333333; line-height: 25px;">A multi-disciplined set of Creatives and Technologists who create ideas for our clients. Our work often blends mixtures of ideas and craft wrapped around extremely engaging stories that deliver results. We are the stewards of a new way of thinking. A diverse team who share an obsession with consumer understanding, the power of ideas and its craft.</p>
 
-          <p style="font-family: 'Open Sans', sans-serif; font-size: 14px; color: black;">We are fans of everything we touch build lasting relationship with our clients, and the happiest when we're immersed in creating great work with incredible partners.
+          <p style="font-family: 'Open Sans', sans-serif; font-size: 18px; color: #333333; line-height: 25px;">We are fans of everything we touch build lasting relationship with our clients, and the happiest when we're immersed in creating great work with incredible partners.
           </p>
           
         </div>
@@ -56,8 +56,8 @@
         <div class="row px-3">
           <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Design</p>
-            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300;">The heart and soul of our offering. We put a lot of passion and effort to deliver outstanding projects which will please your eyes.</p>
-            <ul class="text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300;">
+            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">The heart and soul of our offering. We put a lot of passion and effort to deliver outstanding projects which will please your eyes.</p>
+            <ul class="services-bullets text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300;">
               <li>Website Design</li>
               <li>Mobile Design</li>
               <li>User Experience/Interface (UX + UI)</li>
@@ -73,8 +73,8 @@
           </div>
           <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Technology</p>
-            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">Our technology team represents a wide array of backgrounds and is dedicated to unlocking the creative freedom of our UX and Design teams. Our server-side development team is well versed in a variety of commercial and open-source platforms and evaluates and selects the best tool to meet current and future needs.</p>
-            <ul class="text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">
+            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">Our technology team represents a wide array of backgrounds and is dedicated to unlocking the creative freedom of our UX and Design teams. Our server-side development team is well versed in a variety of commercial and open-source platforms and evaluates and selects the best tool to meet current and future needs.</p>
+            <ul class="services-bullets text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">
               <li>Web & Mobile Development</li>
               <li>Systems Integration</li>
               <li>eCommerce</li>
@@ -88,9 +88,9 @@
           </div>
           <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Strategy</p>
-            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">Every effort begins with an assessment of the challenge to ensure that the agency and key stakeholders are aligned with regards to objectives and definitions of program success. 
+            <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">Every effort begins with an assessment of the challenge to ensure that the agency and key stakeholders are aligned with regards to objectives and definitions of program success. 
             </p>
-            <ul class="text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">
+            <ul class="services-bullets text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">
               <li>Customer Experience Strategy</li>
               <li>Digital Transformation</li>
               <li>Brand Strategy</li>

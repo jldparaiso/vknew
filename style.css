@@ -389,6 +389,14 @@ ul.menu li a{
   text-align: center;
 }
 
+.services-bullets li{
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 16px; 
+  font-weight: 300;
+  line-height: 24px;
+
+}
+
 @media screen and (min-width:320px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
@@ -675,9 +683,6 @@ a.scroll::after{
   .container a.button:link, .container a.button:visited {
   text-align: center;
   display: table;
-  position: fixed;
-  bottom: .5px;
-  left: 128px;
   z-index: 9;
   /*margin:80px auto 20px;
   padding: 24px 10px 14px;*/
