@@ -29,7 +29,7 @@
       </div>
       <div id="home" class="container">
         <div class="hero-text">
-          <h1 style="font-size: 60px; line-height: normal;"><span style="font-size: 34px; font-family: 'NorwesterRegular';">WE CREATE</span>
+          <h1 style="font-size: 60px; line-height: normal;"><span style="font-size: 34px; font-family: 'NorwesterRegular';">WE CREATE</span><br>
           INTUITIVE &<br />
           IMMERSIVE<br />
           EXPERIENCES<br /></h1>
@@ -51,7 +51,7 @@
 
     <div id="our-work" class="container-fluid m-0 p-0" >
       <div class="container">
-        <div class="col-md-4 mx-auto title pt-4">
+        <div class="col-lg-6 col-md-8 mx-auto title pt-4">
           <h2 style="font-size: 85px;">Our Work</h2>
           <div class="separator"></div>
           <p id="intro">Villains Kitchen is led by strategy, influenced by design, and inspired by technology.</p>

@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'NorwesterRegular';
     src: url('fonts/norwester-webfont.woff2') format('woff2'),
@@ -140,8 +142,8 @@ ul.menu li a{
 
 .container{
   padding: 0 20px;
-  /*max-width:1252px;
-  width: 1252px;*/
+  max-width:1252px;
+  width: 1252px;
   display: block;
   margin: 0 auto;
 }
@@ -221,6 +223,7 @@ ul.menu li a{
   font-size: 18px;
   line-height: 24px;
 }
+
 
 .bushes {
   background: url(./images/bushes.png) no-repeat;
@@ -504,9 +507,9 @@ ul.menu li a{
     width: 100%;
   }
 
-  .container .hero-text h1 {
+ /* .container .hero-text h1 {
     font-size: 48px;
-  }
+  }*/
 
   .container .hero-text p {
     font-size: 14px;
@@ -745,6 +748,119 @@ a.scroll::after{
 
   #brand-handle{
     margin-left: 15px !important;
-    padding-left: 15px !important;
+    padding-left: 0px !important;
   }
 }
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+
+    #about, #services{
+  position: static;
+  padding: 0px !important;
+  margin: 0 auto;
+  }
+
+  #abt-img, #services,.footer{
+    position: static;
+    top: 0 !important;
+    overflow: hidden;
+  }
+
+   .hide-menu-btn{
+    position: absolute;
+    top: 28px;
+    right: 28px;
+  }
+
+}
+
+@media only screen and (min-device-width : 601px) and (max-device-width : 767px) {
+
+  .container .hero-text h1{
+    font-size: 30px !important;
+    }
+
+    .container .hero-text span{
+    font-size: 20px !important;
+  }
+
+}
+
+
+@media only screen and (min-device-width : 825px) and (max-device-width : 991px) {
+
+    .container .featured {
+      margin-right: 5px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .container .hero-text h1{
+    font-size: 42px !important;
+  }
+
+  .container .hero-text span{
+    font-size: 28px !important;
+  }
+
+   .hide-menu-btn{
+    position: absolute;
+    top: 32px;
+    right: 80px;
+  }
+
+  #about, #services{
+  position: static;
+  padding: 0px !important;
+  margin: 0 auto;
+  }
+
+  #abt-img, #services,.footer{
+    position: static;
+    top: 0 !important;
+    overflow: hidden;
+  }
+
+
+}
+
+@media (min-width: 992px){
+#home {
+    max-width: 1252 px;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container .hero-text h1{
+    font-size: 55px !important;
+    }
+
+    #about, #services{
+    position: static;
+    padding: 0px !important;
+    margin: 0 auto;
+    }
+
+    #abt-img, #services,.footer{
+    position: static;
+    top: 0 !important;
+    overflow: hidden;
+    }
+
+    .hide-menu-btn{
+    position: absolute;
+    top: 32px;
+    right: 100px;
+  }
+}
+

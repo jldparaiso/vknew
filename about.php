@@ -28,8 +28,8 @@
         <div class="col-lg-3 col-md-3 col-sm-6 mt-5">
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold; color: #000;">WHO WE ARE</h1>
         </div>
-        <div class="col-2"></div>
-        <div class="col-lg-7 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-2 col-md-1"></div>
+        <div class="col-lg-7 col-md-7 col-sm-12 mt-5">
           <p class="sub-cont lead" style="font-family: 'Open Sans', sans-serif; font-size: 45px; font-weight:300; color: #333333; text-align: left; line-height: 54px;">VillainsKitchen is an independently owned creative agency founded in 2015 and currently located in Los Angeles. </p>
 
           <p style="font-family: 'Open Sans', sans-serif; font-size: 18px; color: #333333; line-height: 25px;">A multi-disciplined set of Creatives and Technologists who create ideas for our clients. Our work often blends mixtures of ideas and craft wrapped around extremely engaging stories that deliver results. We are the stewards of a new way of thinking. A diverse team who share an obsession with consumer understanding, the power of ideas and its craft.</p>
@@ -50,11 +50,11 @@
 
       <div id="services" class="container-fluid p-0" style="background:#000;  position: relative; top: 400px;">
       <div id="about-contents" class="container pb-5" >
-        <div class="services-head col-lg-3 col-md-3 col-sm-6 pt-5 pl-5 text-white">
+        <div class="services-head col-lg-3 col-md-6 col-sm-6 pt-5 text-white">
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold;">WHAT WE DO</h1>
         </div>
         <div class="row px-3">
-          <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
+          <div class="services-head col-lg-4 col-md-8 col-sm-12 pt-5 px-3">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Design</p>
             <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">The heart and soul of our offering. We put a lot of passion and effort to deliver outstanding projects which will please your eyes.</p>
             <ul class="services-bullets text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300;">
@@ -71,7 +71,7 @@
             </ul>
             
           </div>
-          <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
+          <div class="services-head col-lg-4 col-md-8 col-sm-12 pt-5 px-3">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Technology</p>
             <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">Our technology team represents a wide array of backgrounds and is dedicated to unlocking the creative freedom of our UX and Design teams. Our server-side development team is well versed in a variety of commercial and open-source platforms and evaluates and selects the best tool to meet current and future needs.</p>
             <ul class="services-bullets text-white pl-3"  style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;">
@@ -86,7 +86,7 @@
             </ul>
             
           </div>
-          <div class="services-head col-lg-4 col-md-4 col-sm-12 p-5">
+          <div class="services-head col-lg-4 col-md-8 col-sm-12 pt-5 px-3">
             <p class="lead" style="font-family: 'Open Sans', sans-serif; font-size: 35px; color: #ff0000;">Strategy</p>
             <p class="text-white" style="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; text-align: left; line-height: 24px;">Every effort begins with an assessment of the challenge to ensure that the agency and key stakeholders are aligned with regards to objectives and definitions of program success. 
             </p>
@@ -102,15 +102,15 @@
           </div>
         </div>
 
-        <div class="services-head col-4 pl-5 pt-5 text-white">
+        <div class="services-head col-4 mt-5 pt-5 text-white">
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold;">BRANDS & CLIENTS</h1>
         </div>
-
-        <div id="brand-handle" class="d-flex flex-wrap align-items-baseline container-fluid text-center pt-5 ml-5">
+        
+        <div id="brand-handle" class="d-flex flex-wrap align-items-baseline container-fluid p-0 ml-2 my-5 text-center">
             <div class="px-2 text-center"><img class="brands" src="./images/amazon.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/riot-games.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/ubisoft.png"></div>
-            <div class="px-3 text-center"><img class="brands" src="./images/activision.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/activision.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/land-rover.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/rei.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/nike.png"></div>
@@ -127,7 +127,7 @@
             <div class="px-2 text-center"><img class="brands" src="./images/mattel.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/hasbro.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/levis.png"></div>
-            <div class="px-2 text-center"><img class="brands" src="./images/sephora.png"></div>
+            <div class="px-1 text-center"><img class="brands" src="./images/sephora.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/discovery.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/aria.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/nbc.png"></div>
@@ -137,9 +137,9 @@
             <div class="px-2 text-center"><img class="brands" src="./images/volvo.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/saban.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/allsaints.png"></div>
-            <div class="px-2 text-center"><img class="brands" src="./images/renaissance.png"></div>
-            <div class="px-2 text-center"><img class="brands" src="./images/adidas.png"></div>
-            <div class="px-2 text-center"><img class="brands" src="./images/ceasar.png"></div>
+            <div class="px-1 text-center"><img class="brands" src="./images/renaissance.png"></div>
+            <div class="px-1 text-center"><img class="brands" src="./images/adidas.png"></div>
+            <div class="px-1 text-center"><img class="brands" src="./images/ceasar.png"></div>
         </div>
         
       </div>
