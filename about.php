@@ -106,7 +106,7 @@
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold;">BRANDS & CLIENTS</h1>
         </div>
 
-        <div class="d-flex flex-wrap align-items-baseline container-fluid text-center pt-5 ml-5">
+        <div id="brand-handle" class="d-flex flex-wrap align-items-baseline container-fluid text-center pt-5 ml-5">
             <div class="px-2 text-center"><img class="brands" src="./images/amazon.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/riot-games.png"></div>
             <div class="px-2 text-center"><img class="brands" src="./images/ubisoft.png"></div>

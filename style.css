@@ -140,8 +140,8 @@ ul.menu li a{
 
 .container{
   padding: 0 20px;
-  max-width:1252px;
-  width: 1252px;
+  /*max-width:1252px;
+  width: 1252px;*/
   display: block;
   margin: 0 auto;
 }
@@ -741,5 +741,10 @@ a.scroll::after{
 
   .services-head{
     padding: 20px !important;
+  }
+
+  #brand-handle{
+    margin-left: 15px !important;
+    padding-left: 15px !important;
   }
 }
