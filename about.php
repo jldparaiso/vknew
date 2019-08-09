@@ -106,8 +106,40 @@
           <h1 style="font-family: 'NorwesterRegular'; font-size: 85px; line-height: 1; font-weight: bold;">BRANDS & CLIENTS</h1>
         </div>
 
-        <div class="container-fluid text-center px-5">
-            <img class="pt-5 img-fluid" src="./images/about-logos.png" style="max-width: 100%;">
+        <div class="d-flex flex-wrap align-items-baseline container-fluid text-center pt-5 ml-5">
+            <div class="px-2 text-center"><img class="brands" src="./images/amazon.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/riot-games.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/ubisoft.png"></div>
+            <div class="px-3 text-center"><img class="brands" src="./images/activision.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/land-rover.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/rei.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/nike.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/universal.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/namco.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/capcom.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/cbsfilms.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/ea.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/ticketmaster.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/screen-gems.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/sony.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/dream-works.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/disney.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/mattel.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/hasbro.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/levis.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/sephora.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/discovery.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/aria.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/nbc.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/ross.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/jordan.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/mgm.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/volvo.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/saban.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/allsaints.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/renaissance.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/adidas.png"></div>
+            <div class="px-2 text-center"><img class="brands" src="./images/ceasar.png"></div>
         </div>
         
       </div>
