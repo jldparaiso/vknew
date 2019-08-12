@@ -826,6 +826,16 @@ a.scroll::after{
     overflow: hidden;
   }
 
+  #modal-client{
+    padding-left: 15px !important;
+    margin-left: 0px !important;
+  }
+
+  #modal-control-left{
+    padding-left: 0px !important;
+  }
+
+
 
 }
 
